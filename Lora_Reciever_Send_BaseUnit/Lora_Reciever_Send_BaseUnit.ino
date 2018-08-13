@@ -1,4 +1,11 @@
-
+/*Set following parameters in lora module using USB to TTL convertor for base unit
+AT+IPR=115200
+AT+ADDRESS=1
+AT+NETWORKID=5
+AT+MODE=0
+AT+BAND=915000000
+AT+PARAMETER=12,7,1,4
+*/
 int incomingByte;
 
 void setup() {

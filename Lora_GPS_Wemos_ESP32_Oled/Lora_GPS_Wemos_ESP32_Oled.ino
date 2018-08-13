@@ -1,3 +1,13 @@
+/*Set following parameter in lora module using USB to TTL convertor
+AT+IPR=115200
+AT+ADDRESS=2
+AT+NETWORKID=5
+AT+MODE=0
+AT+BAND=915000000
+AT+PARAMETER=12,7,1,4
+*/
+
+
 #include <Wire.h>  // Only needed for Arduino 1.6.5 and earlier
 #include "SSD1306Wire.h" // legacy include: `#include "SSD1306.h"`
 #include <TinyGPS++.h>                                  // Tiny GPS Plus Library
